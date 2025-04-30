@@ -12,9 +12,7 @@ To submit a solution, please send us a link to a Git respository.
 
 ## The task
 
-Create an Angular application which displays a list of `Playlists` from the following resource:
-
- `https://portal.organicfruitapps.com/programming-guides/v2/us_en-us/featured-playlists.json`.
+Create an Angular application which displays a list of `Playlists` based on the mock-database data provided.
 
 
 ## What we're looking for
@@ -23,11 +21,13 @@ Create an Angular application which displays a list of `Playlists` from the foll
 - A clean approach to styles
 - Simple markup and use of HTML5 standards
 - Some modularity in layouts and routing
+- Use of latest features of libraries (ex. Angular)
 - A README with your thoughts, comments and challenges/successes
   
 
 ## Bonus points for
 
+- Examples of advanced usage of libraries
 - Well formatted code
 - Demonstrating knowledge of writing tests (unit/e2e)
 - Use of Angular Material components
