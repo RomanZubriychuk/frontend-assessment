@@ -6,5 +6,8 @@
   <p class="mt-2 text-gray-600">Loading...</p>
 </div>
 } @else {
-<app-playlists [playlists]="playlistsFacade.playlists()"></app-playlists>
+<app-playlists
+  [playlists]="playlistsFacade.playlists()"
+  (navigate)="navigate($event)"
+></app-playlists>
 }

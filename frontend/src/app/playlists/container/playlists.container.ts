@@ -13,4 +13,8 @@ export class PlaylistsContainer implements OnInit {
   ngOnInit(): void {
     this.playlistsFacade.fetchPlaylists();
   }
+
+  navigate(link: string): void {
+    window.open(link, '_blank');
+  }
 }

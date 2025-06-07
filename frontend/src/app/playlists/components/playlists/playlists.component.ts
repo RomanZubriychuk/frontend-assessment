@@ -1,4 +1,10 @@
-import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  EventEmitter,
+  Input,
+  Output,
+} from '@angular/core';
 import { Playlist } from '../../../shared/models/playlist.model';
 
 @Component({
@@ -10,4 +16,5 @@ import { Playlist } from '../../../shared/models/playlist.model';
 })
 export class PlaylistsComponent {
   @Input() playlists: Playlist[] = [];
+  @Output() navigate = new EventEmitter<string>();
 }
