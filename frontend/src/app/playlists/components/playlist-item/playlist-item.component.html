@@ -1,0 +1,28 @@
+@if (playlist) {
+  <mat-card
+    class="transition-shadow shadow-sm w-full hover:shadow-lg rounded-xl overflow-hidden backdrop-blur group cursor-pointer"
+  >
+    <mat-card-header class="flex items-center gap-1">
+      <mat-icon
+        mat-card-avatar
+        class="text-primary-500 group-hover:scale-105 transition-transform"
+        >playlist_play</mat-icon
+      >
+      <div>
+        <h3 class="font-semibold text-base leading-tight">
+          {{ playlist.name }}
+        </h3>
+        <p class="text-xs text-muted-foreground pb-2">
+          {{ playlist.kind }}
+        </p>
+      </div>
+    </mat-card-header>
+
+    <img
+      *ngIf="playlist.artwork"
+      [src]="playlist.artwork"
+      alt="playlist cover"
+      class="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300"
+    />
+  </mat-card>
+}
