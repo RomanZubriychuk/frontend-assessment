@@ -8,9 +8,8 @@ describe('PlaylistItemComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PlaylistItemComponent]
-    })
-    .compileComponents();
+      declarations: [PlaylistItemComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(PlaylistItemComponent);
     component = fixture.componentInstance;
