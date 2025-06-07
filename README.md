@@ -1,35 +1,35 @@
 # Turner & Townsend Frontend Technical Assessment
 
-Welcome! Thank you for your interest in joining our team and for taking the time to apply to this role. 
+This project is a technical assessment for the Frontend Developer role at Turner & Townsend.  
+It is built with Angular and demonstrates a modern, modular approach using Signals and the Signal-based NgRx Store.
 
-The purpose of this assessment is to help us understand how you approach solving problems. 
+## Tech Stack
 
-There is no time limit for this assessment - please take as long as you like. 
+- Angular 19+
+- TypeScript
+- Signal-based NgRx Store
+- SCSS (Tailwind)
+- Vite
+- RxJS
 
-That said, your free time is precious and we don't want to take up too much of it. When setting this assessment, our intention was to provide a task that could be completed in around two hours.
+## Installation
 
-To submit a solution, please send us a link to a Git respository.
+Make sure you have Node.js (v18 or later) and Angular CLI installed globally:
 
-## The task
+```bash
+git clone https://github.com/RomanZubriychuk/frontend-assessment.git
+cd turner-townsend-assessment/frontend
+npm install
+```
 
-Create an Angular application which displays a list of `Playlists` based on the mock-database data provided.
+## Running the App
+To start the development server:
+```bash
+ng serve
+```
+The app will be available at: http://localhost:4200
 
-
-## What we're looking for
-
-- Clean architecture, using functional or OOP principles
-- A clean approach to styles
-- Simple markup and use of HTML5 standards
-- Some modularity in layouts and routing
-- Use of latest features of libraries (ex. Angular)
-- A README with your thoughts, comments and challenges/successes
-  
-
-## Bonus points for
-
-- Examples of advanced usage of libraries
-- Well formatted code
-- Demonstrating knowledge of writing tests (unit/e2e)
-- Use of Angular Material components
-- Demonstrating knowledge of Redux patterns and use of a state management tool (eg ngrx)
-- Code that passes linting
+## Running Tests
+```bash
+ng test
+```
